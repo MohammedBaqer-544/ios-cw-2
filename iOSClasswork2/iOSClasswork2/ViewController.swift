@@ -21,6 +21,122 @@ class ViewController: UIViewController {
         
         
         // MARK: - اكتب ال if statement الكود تحت
+    if animal == "cat"
+        {
+            emojiArray.append( "🐱" )
+        }
+            
+    else if animal == "dog"
+        {
+            emojiArray.append( "🐶" )
+        }
+            
+    else if animal == "mouse"
+        {
+            emojiArray.append( "🐭" )
+        }
+            
+    else if animal == "rabbit"
+        {
+            emojiArray.append( "🐰" )
+        }
+            
+    else if animal == "hamster"
+        {
+            emojiArray.append( "🐹" )
+        }
+            
+    else if animal == "fox"
+        {
+            emojiArray.append( "🦊" )
+        }
+            
+    else if animal == "panda"
+        {
+            emojiArray.append( "🐼" )
+        }
+            
+    else if animal == "lion"
+        {
+            emojiArray.append( "🦁" )
+        }
+            
+    else if animal == "cow"
+        {
+            emojiArray.append( "🐮" )
+        }
+            
+    else if animal == "hourse"
+        {
+            emojiArray.append( "🐴" )
+        }
+            
+    else if animal == "fish"
+        {
+            emojiArray.append( "🐟" )
+        }
+          
+    else if animal == "قطة"
+        {
+            emojiArray.append( "🐱" )
+        }
+        
+    else if animal == "كلب"
+        {
+            emojiArray.append( "🐶" )
+        }
+                   
+    else if animal == "فأر"
+        {
+            emojiArray.append( "🐭" )
+        }
+                   
+    else if animal == ""
+        {
+            emojiArray.append( "🐰" )
+        }
+                   
+    else if animal == "هامستر"
+        {
+            emojiArray.append( "🐹" )
+        }
+                   
+    else if animal == "ثعلب"
+        {
+            emojiArray.append( "🦊" )
+        }
+            
+    else if animal == "باندا"
+        {
+            emojiArray.append( "🐼" )
+        }
+                   
+    else if animal == "أسد"
+        {
+            emojiArray.append( "🦁" )
+        }
+                   
+    else if animal == "بقرة"
+        {
+            emojiArray.append( "🐮" )
+        }
+                   
+    else if animal == "حصان"
+        {
+            emojiArray.append( "🐴" )
+        }
+                   
+   else if animal == "سمكة"
+               {
+                   emojiArray.append( "🐟" )
+               }
+    else
+        {
+            emojiArray.append( "❔" )
+        }
+        
+        
+        
         
         
         // MARK: - لا تقم بتغيير هذا السطر⚠️⚠️
@@ -38,7 +154,7 @@ class ViewController: UIViewController {
             animalEmojiLabel.text! += label
         }
         /// **BONUS**: 🎁 قم بمسح مكونات المصفوفة بعد عرضها
-
+        emojiArray.removeAll()
     }
 }
 
